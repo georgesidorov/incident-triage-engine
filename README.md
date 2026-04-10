@@ -53,16 +53,16 @@ Classify an incident description:
 > python src/predict.py "The server is down and users cannot log in"
 
 ## Project Structure
-incident-triage/src/train.py
-incident-triage/src/predict.py
-incident-triage/data/dataset.csv
-incident-triage/models/model.pkl
-incident-triage/models/vectorizer.pkl
-incident-triage/logs/triage.log        (ignored by .gitignore)
-incident-triage/why-these-methods.md
-incident-triage/requirements.txt
-incident-triage/.gitignore
-incident-triage/README.md
+1. incident-triage/src/train.py
+2. incident-triage/src/predict.py
+3. incident-triage/data/dataset.csv
+4. incident-triage/models/model.pkl
+5. incident-triage/models/vectorizer.pkl
+6. incident-triage/logs/triage.log        (ignored by .gitignore)
+7. incident-triage/why-these-methods.md
+8. incident-triage/requirements.txt
+9. incident-triage/.gitignore
+10. incident-triage/README.md
 
 ## Future Improvements
 - Expand dataset with more incident types
